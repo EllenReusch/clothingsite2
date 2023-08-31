@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products By Brands</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="productlist">
+    <header class="mainNav">
+      <h1><a href="index.html">Athletics <span>4</span>All</h1>
+      <nav>
+        <a href="category.html">Categories</a>
+        <a href="productlist.html">Products</a>
+      </nav>
+    </header>
+    <main>
+      <ol class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Categories</a></li>
+      </ol>
+      <h2>Apparel</h2>
+      <template id="smallProductTemplate">
+        <article class="smallProduct">
+          <img
+            src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
+            alt="Sahara Team India Fanwear Round Neck Jersey"
+          />
+          <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+          <p class="subtle">Tshirts | Nike</p>
+          <p class="price"><span>Prev.</span> DKK 1595,-</p>
+          <div class="discounted">
+            <p>Now DKK 1560,-</p>
+            <p>-34%</p>
+          </div>
+          <a class="read-more" href="product.html">Read More</a>
+        </article>
+      </template>
+    </main>
+    <script src="js/productlist.js"></script>
+  </body>
+</html>
